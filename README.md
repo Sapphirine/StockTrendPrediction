@@ -6,19 +6,19 @@ Columbia University EECS6893 Big Data Final Project -- Yucan Liu (yl3791), Yuxin
 StockTrendPrediction
 |
 |--python
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--kmeans_reg.py
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--coint_reg.py
+|   |--kmeans_reg.py
+|   |--coint_reg.py
 |--data
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--output
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--...some sample data...
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--single
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--...some sample data...
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--nasdaqlisted.txt
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--otherlisted.txt
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--sp500.txt
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--generate_all_data.py
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--generate_single_data.py
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--getDiff.py
+    |--output
+          |--...some sample data...
+    |--single
+          |--...some sample data...
+    |--nasdaqlisted.txt
+    |--otherlisted.txt
+    |--sp500.txt
+    |--generate_all_data.py
+    |--generate_single_data.py
+    |--getDiff.py
 ```
 
 ## Usage
