@@ -2,7 +2,8 @@
 Columbia University EECS6893 Big Data Final Project -- Yucan Liu (yl3791), Yuxin Ding (yd2405)
 
 ## Directory
-StockTrendPrediction\s\s
+```
+StockTrendPrediction
 |
 |--python
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--kmeans_reg.py
@@ -18,6 +19,7 @@ StockTrendPrediction\s\s
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--generate_all_data.py
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--generate_single_data.py
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--getDiff.py
+```
 
 ## Usage
 1. `generate_all_data.py` is a python script, which will automatically download a group of stock data. This Python file will read from an external file first and load all the target stocks’ names. Then, it will download the data that fulfill the requirement (has valid data in the design time frame) and write into a CSV file in the given directory.
