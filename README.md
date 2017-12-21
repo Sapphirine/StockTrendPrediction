@@ -2,7 +2,7 @@
 Columbia University EECS6893 Big Data Final Project -- Yucan Liu (yl3791), Yuxin Ding (yd2405)
 
 ## Directory
-StockTrendPrediction
+StockTrendPrediction\s\s
 |
 |--python
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--kmeans_reg.py
