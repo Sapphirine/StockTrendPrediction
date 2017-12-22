@@ -4,7 +4,7 @@ from tqdm import tqdm
 from sklearn.cluster import KMeans
 from sklearn.linear_model import Lasso, Ridge
 from sklearn.ensemble import RandomForestRegressor
-from xgboost import XGBRegressor
+# from xgboost import XGBRegressor
 
 from sklearn.base import BaseEstimator, ClusterMixin
 from sklearn.metrics.pairwise import pairwise_kernels
@@ -299,8 +299,8 @@ if __name__=='__main__':
     n_c = 10  # number of clusters
     iters = 5000  # number of iterations
 
-    train_data_path = 'data_all/output.csv'
-    test_data_path = 'data_all/' + company_name + '.csv'
+    train_data_path = '../data/output/output.csv'
+    test_data_path = '../data/output/' + company_name + '.csv'
 
     #Row = time, Columns = companies
     samples, target = import_data( )
@@ -342,4 +342,3 @@ if __name__=='__main__':
             writer.writerow(accuracy_reg[i])
             writer.writerow(accuracy_kmeans[i])
             writer.writerow('')
-
